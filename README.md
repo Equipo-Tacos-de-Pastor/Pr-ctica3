@@ -7,34 +7,39 @@
 # Introducción
 <div align="justify">
 
-En la tercera práctica de laboratorio se retomaron conceptos previamente vistos, como la movilización del robot en modo world. Esto fue fundamental para avanzar en la creación de puntos clave utilizando la opción "Jog & Teach", que se encuentra dentro del panel de control de "Robot Manager". Esta opción permite al operador manipular el robot de manera precisa y registrar posiciones específicas en el espacio de trabajo, las cuales serán empleadas posteriormente en la secuencia de movimientos del robot.
+En la tercera práctica de laboratorio, se retomaron conceptos previamente vistos, como la movilización del robot en modo "world". Esto fue fundamental para avanzar en la creación de puntos clave utilizando la opción "Jog & Teach", que se encuentra dentro del panel de control de "Robot Manager". Esta opción permite al operador manipular el robot de manera precisa y registrar posiciones específicas en el espacio de trabajo, las cuales serán empleadas posteriormente en la secuencia de movimientos del robot.
 
-La práctica también introdujo la carga de código al brazo robótico Epson C4, permitiendo no solo la creación de puntos de interés, sino también la programación de la secuencia de activación de cada uno de esos puntos mediante los comandos Go y Home, cuya aplicación se revisará en mayor profundidad más adelante. Estos comandos son fundamentales para la navegación del robot entre posiciones previamente definidas, asegurando un movimiento eficiente y controlado.
+La práctica también introdujo la carga de código al brazo robótico Epson C4, permitiendo no solo la creación de puntos de interés, sino también la programación de la secuencia de activación de cada uno de esos puntos mediante los comandos "Go" y "Home", comandos fundamentales para la navegación del robot entre posiciones previamente definidas, asegurando un movimiento eficiente y controlado.
 
 Además, se trabajó con la activación de la pinza neumática, un accesorio esencial del brazo robótico que permite manipular objetos dentro del entorno de trabajo. La correcta sincronización entre los movimientos del brazo y el control de la pinza es clave para garantizar una operación precisa y segura en aplicaciones de automatización industrial.
+
+</div>
+
+# Objetivo
+<div align="justify">
+Intercambiar de lugar dos fusibles, de la estación 3 y 4, empleando la opción "Jog & Teach" del "Robot Manager" para grabar y posteriormente ejecutar una secuencia de movimiento.
 </div>
 
 # Instrucciones 
 <div align="justify">
-Se comenzó por crear un proyecto nuevo en el software Epson RC+, en el cual se reemplazaron nuevos valores del HOME, para ello se abrió el apartado de "Robot manager" y se configuró el movimiento del Robot en modo Joint para poder mover J6 a un valor de 90 grados, una vez hecho esto se abrió el apartado de "Home Config", se leyeron las posiciones y se configurarón como un nuevo Home[1].
+Se comenzó por crear un proyecto nuevo en el software Epson RC+, en el cual se reemplazaron los valores del HOME. Para ello, se abrió el apartado de "Robot Manager" y se configuró el movimiento del robot en modo "Joint" para poder mover J6 a un valor de 90 grados. Una vez hecho esto, se abrió el apartado de "Home Config", se leyeron las posiciones y se configuraron como un nuevo HOME, como se muestra en la Figura 1. [1]
 
 ![Figura 1](Figura1NH.png)
   
 *Figura 1. Configuración de un nuevo Home.*
 
-Durante la siguiente operación, se comenzarón a realizar movimientos del robot en modo world y se grabaron en puntos diferentes, para realizar esto fue necesario una vez definidas cada una de las posiciones irse a la opción de "Teach" en la sección "Jog & Teach"; para ello es necesario saber que la posición que se va a guardar tiene que estar en un punto aún no definido en la sección de "Point" (Véase Figura 2) de no ser así la posición actual se sobreescibira con alguna posición guardada anteriormente.
 
-![Figura 2](Figura2Rutina.jpg)
+Aquí tienes el texto corregido:
 
-*Figura 2. Puntos para guardar cada posición.*
+Posteriormente, se estableció comunicación mediante el puerto USB con el brazo robótico. Empleando el modo "World", se comenzaron a realizar manualmente una serie de movimientos a prueba y error para grabar los puntos que más adelante fueron utilizados en la secuencia que permitió mover un primer fusible de la estación 3 a un lugar de reposo, en este caso una caja, para luego recoger el segundo fusible de la estación 4 y llevarlo a la estación 3, y finalmente regresar por el primer fusible y colocarlo en la estación 4.
 
-Cada una de la información de los puntos guardados se podrán ver en el apartado "Points" dentro del mismo "Robot Manager", en donde se podra revisar la etiqueta con la que se guardo ese punto en especifico además de tener todas las coordenadas de la posición, desde aqui se pueden adminsitrar los puntos ya creados [1].
+La información de cada uno de los puntos guardados se podrá ver en el apartado "Points" dentro del mismo "Robot Manager", donde se podrá revisar la etiqueta con la que se guardó ese punto en específico, además de tener todas las coordenadas de la posición. Desde aquí se pueden administrar los puntos ya creados, como se muestra en la Figura 2. [1]
 
-![Figura 3](Figura3Puntos.jpg)
+![Figura 2](Figura2Puntos.jpg)
 
-Figura 3. Sección Points dentro del robot manager*
+Figura 2. Sección Points dentro del robot manager*
 
-Finalmente, para la ultima parte de la práctica fue necesario conectar el software al robot físico y realizar manualmente una serie de movimientos a prueba y error para grabarlos y más adelante programar la secuencia que permitirá mover un fusible de su posición original hacia una caja; durante la práctica se utilizó el siguiente codigo que activó la secuencia previamente descrita.
+Por ultimo se muestra la secuencia empleada para cumplir el objetivo de la práctica.
 
 ```
 Function main
