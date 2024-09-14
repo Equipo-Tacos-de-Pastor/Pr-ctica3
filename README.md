@@ -24,13 +24,13 @@ Se comenzó por crear un proyecto nuevo en el software Epson RC+, en el cual se 
 
 Durante la siguiente operación, se comenzarón a realizar movimientos del robot en modo world y se grabaron en puntos diferentes, para realizar esto fue necesario una vez definidas cada una de las posiciones irse a la opción de "Teach" en la sección "Jog & Teach"; para ello es necesario saber que la posición que se va a guardar tiene que estar en un punto aún no definido en la sección de "Point" (Véase Figura 2) de no ser así la posición actual se sobreescibira con alguna posición guardada anteriormente.
 
-![Figura 2](Imagen2Rutina.png)
+![Figura 2](Figura2Rutina.png)
 
 *Figura 2. Puntos para guardar cada posición.*
 
 Cada una de la información de los puntos guardados se podrán ver en el apartado "Points" dentro del mismo "Robot Manager", en donde se podra revisar la etiqueta con la que se guardo ese punto en especifico además de tener todas las coordenadas de la posición, desde aqui se pueden adminsitrar los puntos ya creados [1].
 
-![Figura 3](Imagen3Puntos.png)
+![Figura 3](Figura3Puntos.png)
 
 Figura 3. Sección Points dentro del robot manager*
 
