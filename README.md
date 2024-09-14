@@ -77,7 +77,7 @@ Es importante recalcar que en las lineas de código donde se tienen los comandos
 
 Acontinuación se agrega el video del funcionamiento de la secuencia previamente descrita.
 
-[![Video de la secuencia](image.png)](https://drive.google.com/file/d/1C9VOyp0twD5em_AlmO6HtenzBoFVtHih/view?usp=drive_link)
+[![Video de la secuencia](image.png)](https://drive.google.com/file/d/1dptC5s4hHmvFYEPrHO-iIA5R-PxfU3-D/view?usp=sharing)
 
 *Video de la secuencia programada en el brazo.*
 # Conclusiones 
