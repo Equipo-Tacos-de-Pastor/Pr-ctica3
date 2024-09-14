@@ -18,7 +18,7 @@ Además, se trabajó con la activación de la pinza neumática, un accesorio ese
 <div align="justify">
 Se comenzó por crear un proyecto nuevo en el software Epson RC+, en el cual se reemplazaron nuevos valores del HOME, para ello se abrió el apartado de "Robot manager" y se configuró el movimiento del Robot en modo Joint para poder mover J6 a un valor de 90 grados, una vez hecho esto se abrió el apartado de "Home Config", se leyeron las posiciones y se configurarón como un nuevo Home[1].
 
-![Figura 1](Figura1 NuevoHome.png)
+![Figura 1](Figura1NH.png)
   
 *Figura 1. Configuración de un nuevo Home.*
 
