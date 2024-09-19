@@ -37,7 +37,7 @@ La información de cada uno de los puntos guardados se podrá ver en el apartado
 
 ![Figura 2](Figura2Puntos.jpg)
 
-Figura 2. Sección Points dentro del robot manager*
+*Figura 2. Sección Points dentro del robot manager*
 
 Por ultimo se muestra la secuencia empleada para cumplir el objetivo de la práctica.
 
