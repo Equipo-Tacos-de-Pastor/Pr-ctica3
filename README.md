@@ -83,7 +83,7 @@ Acontinuación se agrega el video del funcionamiento de la secuencia previamente
 # Conclusiones 
 <div align="justify">
   
-  __Gabriel Magaña Rendón:__ 
+  __Gabriel Magaña Rendón:__ El desarrollo de la presente práctica permitió aplicar de forma exitosa los conocimientos adquiridos durante la práctica anterior mediante la implementación de una secuencia de movimientos que permitieran intercambiar la posición de un par de fusibles. No se presentaron complicaciones durante el desarrollo de esta.
 </div>
 
 <br/>
