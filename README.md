@@ -98,7 +98,7 @@ __Abel Morales Lino:__ Al ya tener conocimiento de cómo guardar puntos a los qu
   
 __Agustín Téllez-Girón Sánchez:__ 
 </div>
-
+Para la práctica actual se aplicaron conocimientos previamente utilizados, ahora la complejidad de las operaciones fue mayor al tener un número más grande de puntos y de operaciones, sin embargo fue más sencillo realizar esta práctica gracias a la experiencia que obtuvimos anteriormente con la grabación de puntos.
 <br/>
 <div align="justify">
   
