@@ -90,7 +90,7 @@ Acontinuación se agrega el video del funcionamiento de la secuencia previamente
 
 <div align="justify">
   
-__Abel Morales Lino:__ 
+__Abel Morales Lino:__ Al ya tener conocimiento de cómo guardar puntos a los que queremos que el brazo robótico se desplace sólo se añadieron algunos pasos extras para cambiar de posición los fusibles. No presentó mayor problema el llevar a cabo la práctica tres en comparación con la anteriormente realizada. 
 </div>
 
 <br/>
