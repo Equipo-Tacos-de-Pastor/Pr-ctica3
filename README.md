@@ -97,12 +97,13 @@ __Abel Morales Lino:__ Al ya tener conocimiento de cómo guardar puntos a los qu
 <div align="justify">
   
 __Agustín Téllez-Girón Sánchez:__ 
-</div>
+
 Para la práctica actual se aplicaron conocimientos previamente utilizados, ahora la complejidad de las operaciones fue mayor al tener un número más grande de puntos y de operaciones, sin embargo fue más sencillo realizar esta práctica gracias a la experiencia que obtuvimos anteriormente con la grabación de puntos.
+</div>
 <br/>
 <div align="justify">
   
-__Salvador Zaragoza Maldonado:__ 
+__Salvador Zaragoza Maldonado:__ La práctica fue, en escencia, igual a la anterior, realizando los mismos procedimientos para el grabado de puntos, unicamente se realizó una rutina de mayor complejidad en los pasos, por lo que no hubo complicaciones en su realización.
 </div>
 
 # Referencias Bibliográficas
