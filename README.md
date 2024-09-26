@@ -29,8 +29,6 @@ Se comenzó por crear un proyecto nuevo en el software Epson RC+, en el cual se 
 *Figura 1. Configuración de un nuevo Home.*
 
 
-Aquí tienes el texto corregido:
-
 Posteriormente, se estableció comunicación mediante el puerto USB con el brazo robótico. Empleando el modo "World", se comenzaron a realizar manualmente una serie de movimientos a prueba y error para grabar los puntos que más adelante fueron utilizados en la secuencia que permitió mover un primer fusible de la estación 3 a un lugar de reposo, en este caso una caja, para luego recoger el segundo fusible de la estación 4 y llevarlo a la estación 3, y finalmente regresar por el primer fusible y colocarlo en la estación 4.
 
 La información de cada uno de los puntos guardados se podrá ver en el apartado "Points" dentro del mismo "Robot Manager", donde se podrá revisar la etiqueta con la que se guardó ese punto en específico, además de tener todas las coordenadas de la posición. Desde aquí se pueden administrar los puntos ya creados, como se muestra en la Figura 2. [1]
